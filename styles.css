@@ -4,6 +4,18 @@ body {
     flex-direction: column;
     height: 100vh;
 }
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+a {
+    text-decoration: none;
+    color: lightgray;
+    font-size: 17px;
+}
+
 .header,.one,.two,.three,.four,.footer {
     flex: 1 0 300px;
     color: green;
@@ -17,11 +29,42 @@ body {
     background-color: lightgray;
 }
 .header {
+    display: flex;
+    justify-content: space-between;
     background-color: darkblue;
-    flex: 0 0 75px;
+    flex: 0 0 60px;
+    padding: 0 150px;
 }
+
 .one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: darkblue;
+    flex: 0 0 400px;
+    padding: 0 150px;
+}
+.great-website {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 200px;
+    
+}
+.great-website button {
+    background-color: lightblue;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+}
+.header-img {
+    height: 200px;
+    width: 300px;
+}
+h1 {
+    font-size: 50px;
+    margin: 0;
 }
 .footer {
     background-color: darkblue;
