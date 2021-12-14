@@ -1,0 +1,30 @@
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.header,.one,.two,.three,.four,.footer {
+    flex: 1 0 300px;
+    color: green;
+    outline: 2px solid green;
+}
+.two {
+    flex: 0 0 400px;
+}
+.three {
+    flex: 0 0 400px;
+    background-color: lightgray;
+}
+.header {
+    background-color: darkblue;
+    flex: 0 0 75px;
+}
+.one {
+    background-color: darkblue;
+}
+.footer {
+    background-color: darkblue;
+    flex: 0 0 75px;
+
+}
