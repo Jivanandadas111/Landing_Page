@@ -24,10 +24,7 @@ a {
 .two {
     flex: 0 0 400px;
 }
-.three {
-    flex: 0 0 400px;
-    background-color: lightgray;
-}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -47,8 +44,10 @@ a {
 .great-website {
     display: flex;
     flex-wrap: wrap;
-    flex: 0 0 200px;
-    
+    flex: 0 0 200px;    
+}
+.great-website p {
+    margin: 0;
 }
 .great-website button {
     background-color: lightblue;
@@ -57,17 +56,80 @@ a {
     width: 100px;
     border-radius: 10px;
     border: none;
+    margin-top: 20px;
 }
 .header-img {
-    height: 200px;
-    width: 300px;
+    height: 250px;
+    width: 450px;
 }
 h1 {
     font-size: 50px;
     margin: 0;
+    line-height: 45px;
+    margin-bottom: 10px;
 }
 .footer {
     background-color: darkblue;
     flex: 0 0 75px;
 
+}
+.two {
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px;
+    
+}
+.two-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 30px;
+}
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 70px;
+    border-radius: 5px;
+    flex: 1;
+}
+.block img {
+    border: 4px solid blue;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+}
+.block p {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 0;
+}
+.three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0 0 400px;
+    background-color: lightgray;
+}
+.quote {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 300px;
+    margin-right: 250px;
+    font-size: 30px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.quote-author {
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 0;
+    margin-right: 250px;
 }
