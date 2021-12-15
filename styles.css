@@ -68,11 +68,7 @@ h1 {
     line-height: 45px;
     margin-bottom: 10px;
 }
-.footer {
-    background-color: darkblue;
-    flex: 0 0 75px;
 
-}
 .two {
     display: flex;
     flex-direction: column;
@@ -132,4 +128,40 @@ h1 {
     font-size: 25px;
     margin-top: 0;
     margin-right: 250px;
+}
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.callToAction {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: lightblue;
+    height: 150px;
+    width: 800px;
+    border-radius: 25px;
+}
+
+.callToActionHeader {
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 0;
+}
+.signUpButton button {
+    color: white;
+    background-color: lightblue;
+    border: 3px solid white;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    flex: 0 0 75px;
 }
